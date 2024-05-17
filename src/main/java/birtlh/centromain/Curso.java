@@ -1,5 +1,4 @@
 package birtlh.centromain;
-
 import java.util.Arrays;
 
 public class Curso {
@@ -16,7 +15,7 @@ public class Curso {
         this.nombre = nombre;
         this.identificador = identificador;
         this.horas = horas;
-        int a = 4;
+        int a = 5;
     }
 
     // Getters y Setters de la clase Curso
