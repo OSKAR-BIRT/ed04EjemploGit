@@ -16,9 +16,10 @@ public class Curso {
         this.nombre = nombre;
         this.identificador = identificador;
         this.horas = horas;
+        int a = 4;
     }
 
-    // Getters y Setters 
+    // Getters y Setters de la clase Curso
 
     public String[] getArTemas() {
         return arTemas;
@@ -27,7 +28,6 @@ public class Curso {
     public void setArTemas(String[] arTemas) {
         this.arTemas = arTemas;
     }
-
 
     public String getNombre() {
         return nombre;
@@ -53,5 +53,4 @@ public class Curso {
     public String toString() {
         return "Curso: " + nombre + " (ID: " + identificador + ") - " + horas + " horas. Temas a tratar: " + Arrays.toString(arTemas);
     }
-    
 }
