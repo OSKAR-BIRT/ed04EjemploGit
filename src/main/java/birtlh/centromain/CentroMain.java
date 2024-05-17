@@ -1,5 +1,4 @@
 package birtlh.centromain;
-
 public class CentroMain {
     public static void main(String[] args) {
         // Crear una instancia de GestorCursos
@@ -21,6 +20,7 @@ public class CentroMain {
 
         // Editar un curso
         gestor.editarCurso(102, "Administración de Redes", 190);
+        gestor.imprimirCursos();
         gestor.imprimirCursos();
 
         // Eliminar un curso
